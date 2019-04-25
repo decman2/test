@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
         System.out.println("SECOND BRANCH");
+        System.out.println("MASTER");
 //    }
 //        cameraView = findViewById(R.id.camera);
 //        cameraView.addCameraListener(new CameraListener() {
